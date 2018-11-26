@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "65480495835",
+    "firebase_url": "https://appvideojuegos.firebaseio.com",
+    "project_id": "appvideojuegos",
+    "storage_bucket": "appvideojuegos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65480495835:android:b4a9a75097e7d8cf",
+        "android_client_info": {
+          "package_name": "com.example.appvideojuegos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65480495835-spg3mm6b8u04lkarbgjscjep0jf1754u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAuzDEWhNFxXXR8cp-ep9H_lNIarP5fdY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
