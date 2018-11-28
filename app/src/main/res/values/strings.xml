@@ -5,7 +5,7 @@
     <string name="botonLogin">Login</string>
     <string name="botonRegistro">Registro</string>
     <string name="etNombre">Nombre</string>
-    <string name="textViewLogin">Escriba la contraseña de nuevo para confirmación</string>
+    <string name="textViewLogin">Repite el password</string>
     <string name="botonLogin2">Crear</string>
     <string name="validacionMain">Rellene los campos</string>
 </resources>

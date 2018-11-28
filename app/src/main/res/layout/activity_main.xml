@@ -16,31 +16,40 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/etEmail"
+            android:layout_above="@id/etContraseña"
             android:inputType="textEmailAddress"/>
 
         <EditText
             android:id="@+id/etContraseña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_above="@id/botonLogin"
+            android:layout_marginTop="-4dp"
+
+            android:layout_centerVertical="true"
             android:ems="10"
             android:hint="@string/etContraseña"
-            android:layout_below="@id/etEmail"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword" />
 
         <Button
             android:id="@+id/botonLogin"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/botonLogin"
-            android:layout_below="@id/etContraseña"
-            android:layout_centerInParent="true"/>
+            android:layout_centerVertical="true"
+            android:layout_marginTop="-1dp"
+            android:background="@color/green_600"
+            android:textColor="@color/white"
+            android:text="@string/botonLogin" />
 
         <Button
             android:id="@+id/botonRegistro"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/botonRegistro"
-            android:layout_below="@id/botonLogin"
-            android:layout_centerInParent="true"/>
+            android:layout_centerVertical="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="0dp"
+            android:background="@color/orange_600"
+            android:textColor="@color/white"
+            android:text="@string/botonRegistro" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
